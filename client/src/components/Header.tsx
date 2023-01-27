@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { memo, useContext } from "react";
 import Nav from "react-bootstrap/Nav";
 
 import { Context } from "../App";
@@ -38,4 +38,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default memo(Header);
